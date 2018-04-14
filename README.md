@@ -3,8 +3,8 @@
 ### How to run
 
 ```bash 
-> npm install -g parcel-bundler
-> parcel home.html
+> npm install
+> npm start
 ```
 
 Open http://localhost:1234
