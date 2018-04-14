@@ -1,0 +1,283 @@
+body{
+  font-family: "Open Sans";
+}
+
+.header{
+  height: 100px;
+  background-color: #2C4B60;
+}
+
+.header-content{
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-link{
+  a, .icon{
+    color: #43D3B4;
+  }
+  a {
+    margin-right: 50px;
+    font-weight: bold;
+  }
+}
+
+.intro-slide{
+  background-color: #2D3E50;
+  padding: 100px 0;
+  text-align: center;
+  color: white;
+  border-bottom: 8px solid #2BCEAA;
+
+  &-title{
+    margin-top: 40px;
+  }
+
+  &-subtitle{
+    margin-top: 30px;
+  }
+
+  &-actions{
+    margin-top: 70px;
+    margin-bottom: 100px;
+    button{
+      margin-left: 15px;
+      padding: 20px 40px;
+      font-size: 14px;
+    }
+
+    .btn-success{
+      background-color: #22A086;
+    }
+    .btn-outline-light{
+      background-color: #21303C;
+      border: 2px solid white;
+    }
+  }
+}
+
+.separator{
+  transform: skewY(9deg);
+  margin-top: 80px;
+  margin-bottom: 80px;
+  &-inverted{
+    transform: skewY(-9deg);
+
+  }
+}
+
+.features{
+  margin-top: 140px;
+
+  .feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 90px;
+    margin-left: 90px;
+
+    &-content{
+      max-width: 480px;
+
+      &-tag{
+        font-family: Georgia;
+        font-style: italic;
+        color: #898A8B;
+      }
+      &-name{
+        line-height: 1.1;
+        color: #353637;
+        .icon{
+          margin-left: 15px;
+          color: #CFD7DB;
+        }
+      }
+      &-description{
+        margin: 18px 0;
+        font-size: 14px;
+        color: #898A8B;
+      }
+    }
+
+    &-galery{
+      text-align: center;
+      margin-top: 140px;
+
+      &-tag{
+        font-family: Georgia;
+        font-style: italic;
+        color: #898A8B;
+      }
+      &-title{
+        line-height: 1.1;
+        color: #353637;
+        text-transform: uppercase;
+      }
+
+      &-images{
+        margin-top:50px;
+        margin-bottom: 25px;
+      }
+      &-image{
+        width: 200px;
+        display: inline-block;
+        margin: 0 25px;
+
+        &-title{
+          margin-top: 30px;
+          font-size: 20px;
+          color: #353637;
+          text-transform: uppercase;
+        }
+        &-description{
+          font-size: 14px;
+          font-family: Georgia;
+          color: #898A8B;
+        }
+
+        &-board {
+          display: inline-block;
+          padding: 10px;
+          border: 1px solid #E0E1E2;
+        }
+
+        &-img{
+          width: 180px;
+          height: 180px;
+          background-color: #E3E8EB;
+        }
+      }
+    }
+
+  }
+}
+
+.contact{
+  margin-top: 140px;
+  background-color: #2D3E50;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: white;
+  border-bottom: 8px solid #2BCEAA;
+
+  &-title{
+    text-transform: uppercase;
+  }
+  &-description{
+    margin-top: 13px;
+    margin-bottom: 50px;
+  }
+  .input-group{
+    width: 620px;
+    margin: 0 auto;
+  }
+  &-alert{
+    background-color: #EE6E55;
+    width: 620px;
+    display: inline-block;
+    border-radius: 4px;
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 12px;
+    font-style: italic;
+    .icon{
+      margin-right: 5px;
+    }
+  }
+}
+
+.reviews{
+  text-align: center;
+  margin-top: 200px;
+
+  &-tag{
+    font-family: Georgia;
+    font-style: italic;
+    color: #898A8B;
+  }
+  &-title{
+    line-height: 1.1;
+    color: #353637;
+  }
+  &-itens{
+    margin: 50px 50px 0;
+  }
+}
+
+.review{
+  border: 1px solid #E0E1E2;
+  padding: 50px 35px;
+  text-align: center;
+  margin-bottom: 30px;
+  &-image{
+    background-color: #EAEBEC;
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  &-name{
+    margin-top: 15px;
+    margin-bottom: 0px;
+  }
+  &-twitter{
+    color: #4DAD98;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  &-comment{
+    font-style: italic;
+    font-family: Georgia;
+    color: #898A8B;
+  }
+}
+
+.signup-trigger{
+  text-align: center;
+  max-width: 600px;
+  margin: 100px auto;
+
+  &-title{
+    font-size: 22px;
+    color: #353637;
+  }
+  &-subtitle{
+    font-family: Georgia;
+    color: #898A8B;
+    font-style: italic;
+    margin-bottom: 25px;
+  }
+}
+
+.bottom{
+  border-top: 1px solid rgba(0,0,0,.1);
+  padding: 30px 0px;
+  &-content{
+    display: flex;
+    justify-content: space-between;
+  }
+  &-links{
+    a{
+      margin-right: 30px;
+      font-size: 14px;
+      color: #898A8B;
+    }
+  }
+  &-follow{
+    color: #898A8B;
+    font-size: 14px;
+    img{
+      margin-right: 12px;
+    }
+  }
+}
+
+.section-container{
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
